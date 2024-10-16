@@ -7,8 +7,16 @@ const me = 24;
 // if (me > elderBrother) {
 //   console.log("You are elder"); // not print
 // }
+// if (me >= elderBrother) {
+//   console.log("ur are elder");
+// } else {
+//   console.log(" ur brother is elder");
+// }
+
 if (me > elderBrother) {
-  console.log("ur are elder");
+  console.log("you are elder");
+} else if (elderBrother > me) {
+  console.log("you're brother is elder");
 } else {
-  console.log(" ur brother is elder");
+  console.log("You're both same");
 }

@@ -10,3 +10,11 @@ const a3 = new Array(1, 2, 3, 4, 5, 6);
 console.log(a3, a3.length);
 
 //factory pattern
+const b1 = Array();
+console.log(b1, b1.length);
+
+const b2 = Array(5);
+console.log(b2, b2.length);
+
+const b3 = Array(1, 2, 3, 4, 5, 6);
+console.log(b3, b3.length);

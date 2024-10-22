@@ -1,5 +1,5 @@
 // Traverse Array Elements
-const arr = [1, 2, 3, 4, 5, 6];
+const arr = [1, 2, 3, 4, 5];
 
 const n = arr[3];
 const m = arr[2];
@@ -27,5 +27,18 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 // Array Sum & Avg
+/**
+ * sum = 0
+ * sum = 0 + 1 = 1
+ * sum = 1 + 2 = 3
+ * sum = 3 + 3 = 6
+ * sum = 6 + 4 = 10
+ */
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+console.log(sum);
+console.log(sum / arr.length);
 
 // Find Large Number

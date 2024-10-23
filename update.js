@@ -20,9 +20,14 @@ names[0] = "hm nayem";
 names[1] = "shefa taranjum";
 names[2] = "salvy parker";
 
-console.log(names);
 // console.log(names);
 
 // Fill Array and Update
-
+const response = new Array(9);
+response.fill(false);
+for (let i = 0; i < response.length; i++) {
+  const rand = Math.floor(Math.random() * 10 + 1);
+  response[i] = rand > 5 ? "x" : "o";
+}
+console.log(response);
 //Array is mutable

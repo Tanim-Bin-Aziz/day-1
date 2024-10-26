@@ -33,6 +33,9 @@ for (let i = 0; i < response.length; i++) {
 //Array is mutable
 function update(arr) {
   for (let i = 0; i < arr.length; i++) {
-    arr[i] = `${i + 1}. $`;
+    arr[i] = `${i + 1}. ${arr[i]}`;
   }
+  return arr;
 }
+update(names);
+console.log(names);

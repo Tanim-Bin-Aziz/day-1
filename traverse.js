@@ -50,4 +50,4 @@ for (let i = 1; i < arr.length; i++) {
     largeNumber = arr[i];
   }
 }
-// console.log(largeNumber);
+console.log(largeNumber);

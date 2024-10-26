@@ -29,5 +29,10 @@ for (let i = 0; i < response.length; i++) {
   const rand = Math.floor(Math.random() * 10 + 1);
   response[i] = rand > 5 ? "x" : "o";
 }
-console.log(response);
+// console.log(response);
 //Array is mutable
+function update(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = `${i + 1}. $`;
+  }
+}

@@ -37,5 +37,6 @@ function update(arr) {
   }
   return arr;
 }
-update(names);
+const updatedNames = update(names);
 console.log(names);
+console.log(names === updatedNames);

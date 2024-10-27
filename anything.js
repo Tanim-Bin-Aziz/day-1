@@ -35,7 +35,7 @@ const a = 10,
   b = 20;
 for (let i = 0; i < funcs.length; i++) {
   const result = funcs[i](a, b);
-  console.log(result);
+  console.log(`[${funcs[i].name}] Result = ${result}`);
 }
 
 // Loop and call all fucntions from array

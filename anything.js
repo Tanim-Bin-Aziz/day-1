@@ -3,6 +3,8 @@
  */
 
 const arr = [10, "Ten", true, getTen, { ten: 10 }, [10, 10]];
+console.log(arr);
+
 function getTen() {
   return 10;
 }
@@ -27,3 +29,18 @@ const sub = (a, b) => a - b;
 const times = (a, b) => a * b;
 const div = (a, b) => a / b;
 const mod = (a, b) => a % b;
+
+const funcs = [sum, sub, times, div, mod];
+const a = 10,
+  b = 20;
+
+// Loop and call all fucntions from array
+
+// Array of Arrays - multi Dimensonal Array
+
+const pointTable = [
+  [0, 0],
+  [3, 5],
+  [5, 7],
+  [10, 23],
+];

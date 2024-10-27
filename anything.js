@@ -62,7 +62,7 @@ const numbers = [
 ];
 for (let i = 0; i < numbers.length; i++) {
   for (let j = 0; j < numbers.length; j++) {
-    console.log(numbers[i][j]);
+    // console.log(numbers[i][j]);
   }
 }
 // for (let j = 0; j < numbers.length; j++) {
@@ -70,3 +70,9 @@ for (let i = 0; i < numbers.length; i++) {
 // }
 
 // console.log(numbers[1][0]);
+
+for (let i = 0; i < pointTable.length; i++) {
+  for (let j = 0; j < pointTable[i].length; j++) {
+    console.log(`Point [${i},${j}] = ${pointTable[i][j]}`);
+  }
+}

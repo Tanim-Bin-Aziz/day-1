@@ -18,5 +18,14 @@ person1.firstName = "Tanim";
 person1.lastName = "Bin Aiz";
 person1.email = "tanimbinziz145@gmail.com";
 
-console.log(person1);
-console.log(person1.firstName);
+// console.log(person1);
+// console.log(person1.firstName);
+
+const person2 = {
+  firstName: "Tanim",
+  lastName: "Bin Aziz",
+  email: "tanimbinaziz145@gmail.com",
+};
+
+console.log(person2);
+console.log(person2.email);

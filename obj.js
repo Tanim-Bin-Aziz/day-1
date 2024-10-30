@@ -33,3 +33,7 @@ person2.phone = "01719000060";
 // console.log(person2);
 // console.log(person2.email);
 console.log(person2);
+
+delete person2.id;
+
+console.log(person2);

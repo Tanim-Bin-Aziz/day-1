@@ -26,6 +26,10 @@ const person2 = {
   lastName: "Bin Aziz",
   email: "tanimbinaziz145@gmail.com",
 };
+person2.id = "1245";
+person2.age = 197;
+person2.phone = "01719000060";
 
+// console.log(person2);
+// console.log(person2.email);
 console.log(person2);
-console.log(person2.email);

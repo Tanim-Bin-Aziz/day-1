@@ -8,3 +8,11 @@ for (let v of arr1) {
   }
 }
 console.log(max);
+
+let max2 = arr2[0];
+for (let v of arr2) {
+  if (v > max2) {
+    max2 = v;
+  }
+}
+console.log(max2);
